@@ -2,7 +2,7 @@
 id: 34nkc
 name: test doc
 file_version: 1.1.0
-app_version: 0.11.1
+app_version: 1.0.0
 file_blobs:
   .prettierignore: a7275c58dd2a6ccd4a131eb62f888630d2ab492d
   CODE_OF_CONDUCT.md: 590760d3028a0aeb0c9ec57ca2b465df5b393065
@@ -30,6 +30,34 @@ We define our configuration values in fdfd
 |-----|-----|-----|
 |<br/>|<br/>|<br/>|
 |<br/>|<br/>|<br/>|
+
+<br/>
+
+<!--MERMAID {width:100}-->
+```mermaid
+classDiagram
+Animal <|-- Duck
+Animal <|-- Fish
+Animal <|-- Zebra
+Animal : +int age
+Animal : +String gender
+Animal: +isMammal()
+Animal: +mate()
+class Duck{
++String beakColor
++swim()
++quack()
+}
+class Fish{
+\-int sizeInFeet
+\-canEat()
+}
+class Zebra{
++bool is\_wild
++run()
+}
+```
+<!--MCONTENT {content: "classDiagram<br/>\nAnimal <|-- Duck<br/>\nAnimal <|-- Fish<br/>\nAnimal <|-- Zebra<br/>\nAnimal : +int age<br/>\nAnimal : +String gender<br/>\nAnimal: +isMammal()<br/>\nAnimal: +mate()<br/>\nclass Duck{<br/>\n+String beakColor<br/>\n+swim()<br/>\n+quack()<br/>\n}<br/>\nclass Fish{<br/>\n\\-int sizeInFeet<br/>\n\\-canEat()<br/>\n}<br/>\nclass Zebra{<br/>\n+bool is\\_wild<br/>\n+run()<br/>\n}<br/>"} --->
 
 <br/>
 
@@ -95,7 +123,7 @@ jifjigfuifgujiufgijufgi
 
 <br/>
 
-
+<br/>
 
 <br/>
 
