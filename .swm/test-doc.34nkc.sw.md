@@ -2,7 +2,7 @@
 id: 34nkc
 name: test doc
 file_version: 1.1.0
-app_version: 0.11.1
+app_version: 1.0.0
 file_blobs:
   .prettierignore: a7275c58dd2a6ccd4a131eb62f888630d2ab492d
   CODE_OF_CONDUCT.md: 590760d3028a0aeb0c9ec57ca2b465df5b393065
@@ -94,8 +94,6 @@ jifjigfuifgujiufgijufgi
 {Add any required migrations, or other actions, when updating an existing configuration value}
 
 <br/>
-
-
 
 <br/>
 
